@@ -1,0 +1,122 @@
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #171206, #F1F42D); /* Updated background gradient */
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #797c75, #141412);
+  text-align: center;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 19px;
+  font-size: 23px;
+}
+
+.navbar a:hover {
+  color: #000000;
+}
+
+#title-overlay {
+  text-align: center;
+  background: linear-gradient(135deg, #35477d, #10110e);
+  color: #fff;
+  padding: 20px;
+}
+
+#title-overlay h2 {
+  font-size: 40px;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  background: transparent;
+  text-shadow: 2px 2px 4px rgba(5, 34, 11, 0.5);
+}
+
+.carousel {
+  margin-top: 20px;
+}
+
+.carousel .carousel-inner {
+  height: 600px;
+}
+
+.carousel .carousel-inner .carousel-item img {
+  object-fit: cover; /* Changed object-fit property */
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjusted box-shadow */
+  border: none;
+  text-align: center;
+  background: #F9EBB2; /* Updated card background color */
+  margin: 10px;
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 24px; /* Increased font size */
+  margin: 10px 0;
+}
+
+.card-text {
+  font-size: 18px; /* Increased font size */
+  color: #020202;
+  background: transparent;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #0c0c0c, #f1f42d);
+  border: none;
+  border-radius: 5px;
+  color: #020202;
+  padding: 10px 20px; /* Increased padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px; /* Increased font size */
+  margin: 8px 4px; /* Adjusted margin */
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #54318c, #161615);
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+}
+
+.navbar .navbar-brand {
+  color: #0e0d0d;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+  background: linear-gradient(135deg, #f57f17, #a94614);
+  color: #fff;
+}
+
+.bold-line {
+  border: none;
+  border-top: 3px solid #000;
+}
